@@ -1,0 +1,78 @@
+#login{
+	border:1px;
+	border-style: solid;
+	border-colar:black;
+	width: 600px;
+	height: 100px;
+	display: none;
+	left: 50%;
+	top:25%;
+	position:absolute;
+	margin-left:-300px;
+	background-color:white;	
+}
+#alogin{
+	border:1px;
+	border-style: solid;
+	border-colar:black;
+	width: 600px;
+	height: 100px;
+	display: none;
+	left: 50%;
+	top:25%;
+	position:absolute;
+	margin-left:-300px;
+	background-color:white;	
+}
+#message_div{
+	background-color: white;
+	border: 1px;
+	border-style: solid;
+	display: none;
+	width: 600px;
+	height:400px;
+	position:absolute;
+	left: 50%;
+	margin-left:-300px;
+	top:50%;
+	margin-top: -200px;
+	overflow: hidden;
+	resize: none;
+	text-align: center;
+}
+#reply_div{
+	background-color: white;
+	border: 1px;
+	border-style: solid;
+	width: 600px;
+	height:400px;
+	position:absolute;
+	left: 50%;
+	margin-left:-300px;
+	top:50%;
+	margin-top: -200px;
+	overflow: hidden;
+	resize: none;
+	text-align: center;
+}
+#message_div textarea{
+	margin:0 auto;
+	display: block;
+	margin-top:20px;
+}
+#reply_div textarea{
+	margin:0 auto;
+	display: block;
+	margin-top:20px;
+}
+.hbtn{
+	position: absolute;
+	top: 55px;
+	left: 262px;
+}
+.hbtn1{
+	position: absolute;
+	top: 334px;
+	left: 330px;
+}
+
