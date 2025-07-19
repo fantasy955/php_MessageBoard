@@ -1,0 +1,1834 @@
+- manifestVersion: 1
+  name: BepInEx-BepInExPack
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/
+  displayName: BepInExPack
+  description: BepInEx pack for Mono Unity games. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166237290
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2100
+  enabled: true
+  icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/BepInEx-BepInExPack/5.4.2100/icon.png
+- manifestVersion: 1
+  name: notnotnotswipez-MoreCompany
+  authorName: notnotnotswipez
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/
+  displayName: MoreCompany
+  description: A stable lobby player count expansion mod. With cosmetics!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293433860
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 11
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/notnotnotswipez-MoreCompany/1.11.2/icon.png
+- manifestVersion: 1
+  name: RugbugRedfern-Skinwalkers
+  authorName: RugbugRedfern
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/RugbugRedfern/Skinwalkers/
+  displayName: Skinwalkers
+  description: The monsters have learned how to mimic the voices of your friends.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166242727
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 5
+      minor: 0
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/RugbugRedfern-Skinwalkers/5.0.0/icon.png
+- manifestVersion: 1
+  name: Evaisa-FixPluginTypesSerialization
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/FixPluginTypesSerialization/
+  displayName: FixPluginTypesSerialization
+  description: Fix custom Serializable structs and such not properly getting
+    deserialized by Unity.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293433551
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Evaisa-FixPluginTypesSerialization/1.1.2/icon.png
+- manifestVersion: 1
+  name: Evaisa-HookGenPatcher
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/
+  displayName: HookGenPatcher
+  description: Generates MonoMod.RuntimeDetour.HookGen's MMHOOK file during the
+    BepInEx preloader phase.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166311040
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Evaisa-HookGenPatcher/0.0.5/icon.png
+- manifestVersion: 1
+  name: Rune580-LethalCompany_InputUtils
+  authorName: Rune580
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/
+  displayName: LethalCompany_InputUtils
+  description: API/Library for creating Unity InputActions with in-game re-binding
+    support. Provides an alternative UI that allows for supporting mods to have
+    in-game re-bindable keybinds.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293433304
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 0
+      minor: 7
+      patch: 10
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Rune580-LethalCompany_InputUtils/0.7.10/icon.png
+- manifestVersion: 1
+  name: WhiteSpike-Interactive_Terminal_API
+  authorName: WhiteSpike
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/WhiteSpike/Interactive_Terminal_API/
+  displayName: Interactive_Terminal_API
+  description: API focused on making interactable UI in the terminal
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166311174
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Rune580-LethalCompany_InputUtils-0.7.3
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/WhiteSpike-Interactive_Terminal_API/1.2.0/icon.png
+- manifestVersion: 1
+  name: Sigurd-CSync
+  authorName: Sigurd
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sigurd/CSync/
+  displayName: CSync
+  description: Configuration file syncing library for BepInEx.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166311242
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-FixPluginTypesSerialization-1.1.1
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 5
+      minor: 0
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Sigurd-CSync/5.0.1/icon.png
+- manifestVersion: 1
+  name: Evaisa-LethalLib
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/
+  displayName: LethalLib
+  description: Personal modding tools for Lethal Company
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293433186
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - MonoDetour-MonoDetour_BepInEx_5-0.6.3
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Evaisa-LethalLib/1.1.1/icon.png
+- manifestVersion: 1
+  name: malco-Lategame_Upgrades
+  authorName: malco
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/malco/Lategame_Upgrades/
+  displayName: Lategame_Upgrades
+  description: V3.12.2! - Alternate Currency mode, fixes and more!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293433431
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.15.0
+    - Sigurd-CSync-5.0.1
+    - Rune580-LethalCompany_InputUtils-0.7.7
+    - WhiteSpike-Interactive_Terminal_API-1.1.3
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 3
+      minor: 12
+      patch: 3
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/malco-Lategame_Upgrades/3.12.3/icon.png
+- manifestVersion: 1
+  name: Drakorle-MoreItems
+  authorName: Drakorle
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Drakorle/MoreItems/
+  displayName: MoreItems
+  description: Changes the max amount of items that the game saves from 45 to 999.
+    Requires BepInEx.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166346265
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Drakorle-MoreItems/1.0.2/icon.png
+- manifestVersion: 1
+  name: tinyhoot-ShipLoot
+  authorName: tinyhoot
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/
+  displayName: ShipLoot
+  description: Reliably shows the total value of all scrap in your ship.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166362136
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/tinyhoot-ShipLoot/1.1.0/icon.png
+- manifestVersion: 1
+  name: x753-More_Suits
+  authorName: x753
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/x753/More_Suits/
+  displayName: More_Suits
+  description: Adds more suits to choose from, and can be used as a library to
+    load your own suits!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293433071
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 5
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/x753-More_Suits/1.5.2/icon.png
+- manifestVersion: 1
+  name: x753-Mimics
+  authorName: x753
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/x753/Mimics/
+  displayName: Mimics
+  description: Adds a dangerous new monster to the game. Can you figure out what's
+    real or will you be devoured?
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293432916
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 2
+      minor: 7
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/x753-Mimics/2.7.0/icon.png
+- manifestVersion: 1
+  name: RickArg-Helmet_Cameras
+  authorName: RickArg
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/RickArg/Helmet_Cameras/
+  displayName: Helmet_Cameras
+  description: For monitoring first person cameras on player's helmets. For best
+    "Camera Man" experience.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166385347
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 2
+      minor: 1
+      patch: 5
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/RickArg-Helmet_Cameras/2.1.5/icon.png
+- manifestVersion: 1
+  name: sunnobunno-YippeeMod
+  authorName: sunnobunno
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/
+  displayName: YippeeMod
+  description: Changes the chitter SFX of the Hoarding Bug to the yippee-tbh sound
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166390363
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 4
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/sunnobunno-YippeeMod/1.2.4/icon.png
+- manifestVersion: 1
+  name: Evaisa-LethalThings
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/
+  displayName: LethalThings
+  description: Adds 11 scrap, 6 store items, 1 enemy, 4 decor, 1 map hazard, and 1
+    game mechanic.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166419708
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.11.2
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 0
+      minor: 10
+      patch: 7
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Evaisa-LethalThings/0.10.7/icon.png
+- manifestVersion: 1
+  name: Lordfirespeed-OdinSerializer
+  authorName: Lordfirespeed
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Lordfirespeed/OdinSerializer/
+  displayName: OdinSerializer
+  description: Fast, robust, powerful and extendible .NET serializer built for Unity
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293432801
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2024
+    minor: 2
+    patch: 2700
+  enabled: true
+  icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Lordfirespeed-OdinSerializer/2024.2.2700/icon.png
+- manifestVersion: 1
+  name: xilophor-StaticNetcodeLib
+  authorName: xilophor
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/xilophor/StaticNetcodeLib/
+  displayName: StaticNetcodeLib
+  description: A library/patcher for NGO in a static context.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166557907
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Lordfirespeed-OdinSerializer-2022.11.9
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/xilophor-StaticNetcodeLib/1.1.1/icon.png
+- manifestVersion: 1
+  name: EliteMasterEric-Coroner
+  authorName: EliteMasterEric
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/
+  displayName: Coroner
+  description: Add Cause of Death to the performance report, now with a Mod API!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293432684
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - xilophor-StaticNetcodeLib-1.1.1
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 2
+      minor: 3
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/EliteMasterEric-Coroner/2.3.0/icon.png
+- manifestVersion: 1
+  name: FlipMods-BetterStamina
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/BetterStamina/
+  displayName: BetterStamina
+  description: Tweaks stamina regen/consumption, as well as lessens the penalty of
+    speed/stamina based on weight. Config values are fully customizable for
+    stamina, movement speed, ladder climbing speed, jumping, etc, and will sync
+    with the host.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293432550
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 5
+      patch: 6
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/FlipMods-BetterStamina/1.5.6/icon.png
+- manifestVersion: 1
+  name: AllToasters-SpectateEnemies
+  authorName: AllToasters
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AllToasters/SpectateEnemies/
+  displayName: SpectateEnemies
+  description: Allows you to spectate enemies when dead.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166620327
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Rune580-LethalCompany_InputUtils-0.7.7
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 2
+      minor: 7
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/AllToasters-SpectateEnemies/2.7.0/icon.png
+- manifestVersion: 1
+  name: Hexnet111-SuitSaver
+  authorName: Hexnet111
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Hexnet111/SuitSaver/
+  displayName: SuitSaver
+  description: A plugin for saving your last used suit. (Compatible with v55)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166644209
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Hexnet111-SuitSaver/1.2.1/icon.png
+- manifestVersion: 1
+  name: Ozone-BepInUtils
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/BepInUtils/
+  displayName: BepInUtils
+  description: A library some of my mods depend on.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166718239
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Ozone-BepInUtils/1.2.1/icon.png
+- manifestVersion: 1
+  name: Ozone-Glow_Steps
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Glow_Steps/
+  displayName: Glow_Steps
+  description: Now see other people's footsteps w/ no networking
+    required(Client-side still)! Adds glowing footsteps where you run! Makes
+    getting out easier.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166718295
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Ozone-BepInUtils-1.2.0
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Ozone-Glow_Steps/1.1.2/icon.png
+- manifestVersion: 1
+  name: OE_Tweaks-Possessed_Masks
+  authorName: OE_Tweaks
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/OE_Tweaks/Possessed_Masks/
+  displayName: Possessed_Masks
+  description: A ghost haunts your masks, the mask will try to get in your active
+    slot and possess you. Tweaks spawn chances of masks to allow them to spawn
+    on all moons.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166749621
+  loaders: []
+  dependencies:
+    - Evaisa-LethalLib-0.14.1
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 2
+      minor: 1
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/OE_Tweaks-Possessed_Masks/2.1.1/icon.png
+- manifestVersion: 1
+  name: HGG-JigglePhysicsPlugin
+  authorName: HGG
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/HGG/JigglePhysicsPlugin/
+  displayName: JigglePhysicsPlugin
+  description: Dependency for adding jiggle physics to cosmetics. Please read the
+    README for a tutorial and the CHANGELOG for updates!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166790288
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 21
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/HGG-JigglePhysicsPlugin/1.1.21/icon.png
+- manifestVersion: 1
+  name: Mhz-MoreHead
+  authorName: Mhz
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Mhz/MoreHead/
+  displayName: MoreHead
+  description: Simple cosmetics, joy for you.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166790358
+  loaders: []
+  dependencies:
+    - notnotnotswipez-MoreCompany-1.8.1
+    - HGG-JigglePhysicsPlugin-1.1.2
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 6
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Mhz-MoreHead/1.2.6/icon.png
+- manifestVersion: 1
+  name: PopleZoo-BetterItemScan
+  authorName: PopleZoo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/PopleZoo/BetterItemScan/
+  displayName: BetterItemScan
+  description: Better Item Scan makes it easier to scan a group of items to see
+    the price of each of them listed as well as their combined total. Now with a
+    built in smart quota calculator and UI adjustment
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736166841076
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/PopleZoo-BetterItemScan/3.0.2/icon.png
+- manifestVersion: 1
+  name: SweetFox-Lethal_Company_Simplified_Chinese_Localization
+  authorName: SweetFox
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/SweetFox/Lethal_Company_Simplified_Chinese_Localization/
+  displayName: Lethal_Company_Simplified_Chinese_Localization
+  description: Lethal Company 鑷村懡鍏徃绠?浣撲腑鏂囨湰鍦版眽鍖?
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736167241451
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 8
+      patch: 33
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/SweetFox-Lethal_Company_Simplified_Chinese_Localization/1.8.33/icon.png
+- manifestVersion: 1
+  name: xliecc-Speaker_Chinese_Simplified_subtitles
+  authorName: xliecc
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/xliecc/Speaker_Chinese_Simplified_subtitles/
+  displayName: Speaker_Chinese_Simplified_subtitles
+  description: 涓哄箍鎾殑姣忎竴鍙ヨ瘽娣诲姞浜嗙畝浣撲腑鏂囧瓧骞?
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736167748332
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/xliecc-Speaker_Chinese_Simplified_subtitles/1.1.1/icon.png
+- manifestVersion: 1
+  name: xliecc-Chinese_Simplified_localized_patch
+  authorName: xliecc
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/xliecc/Chinese_Simplified_localized_patch/
+  displayName: Chinese_Simplified_localized_patch
+  description: Lethal Company 鑷村懡鍏徃绠?浣撲腑鏂囨湰鍦版眽鍖栫殑涓?涓汗鐞嗚ˉ涓?
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736167756264
+  loaders: []
+  dependencies:
+    - SweetFox-Lethal_Company_Simplified_Chinese_Localization-1.8.33
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 4
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/xliecc-Chinese_Simplified_localized_patch/1.1.4/icon.png
+- manifestVersion: 1
+  name: chuxiaaaa-LoadAllLobby
+  authorName: chuxiaaaa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/chuxiaaaa/LoadAllLobby/
+  displayName: LoadAllLobby
+  description: Load all versions of lobbies
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293432441
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/chuxiaaaa-LoadAllLobby/1.1.1/icon.png
+- manifestVersion: 1
+  name: NakiriFox-LC_Simplified_Chinese_Localization
+  authorName: NakiriFox
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/NakiriFox/LC_Simplified_Chinese_Localization/
+  displayName: LC_Simplified_Chinese_Localization
+  description: v64绠?涓眽鍖?+鐙愮嫺鍏煎鍘熺増浼樺寲鍖呮眽鍖?
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1736167769112
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - chuxiaaaa-LoadAllLobby-1.0.4
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 2
+      minor: 5
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/NakiriFox-LC_Simplified_Chinese_Localization/2.5.0/icon.png
+- manifestVersion: 1
+  name: zoomstv-24HourClock
+  authorName: zoomstv
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/zoomstv/24HourClock/
+  displayName: 24HourClock
+  description: A mod for Lethal Company that displays time in the 24-hour format
+    instead of using AM/PM
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1737459148767
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/zoomstv-24HourClock/1.0.0/icon.png
+- manifestVersion: 1
+  name: NotAtomicBomb-TerminalApi
+  authorName: NotAtomicBomb
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/TerminalApi/
+  displayName: TerminalApi
+  description: A Terminal Api
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1737459171072
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 5
+      patch: 5
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/NotAtomicBomb-TerminalApi/1.5.5/icon.png
+- manifestVersion: 1
+  name: fivetoofive-DetailedScan
+  authorName: fivetoofive
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/fivetoofive/DetailedScan/
+  displayName: DetailedScan
+  description: A terminal command for a detailed scan of the scrap still remaining
+    outside the ship.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1737459171304
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - NotAtomicBomb-TerminalApi-1.5.0
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/fivetoofive-DetailedScan/1.2.2/icon.png
+- manifestVersion: 1
+  name: Stoneman-LethalProgression
+  authorName: Stoneman
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Stoneman/LethalProgression/
+  displayName: LethalProgression
+  description: Leveling and skillpoints!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1737459289760
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 3
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Stoneman-LethalProgression/1.3.2/icon.png
+- manifestVersion: 1
+  name: xilophor-LethalNetworkAPI
+  authorName: xilophor
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/xilophor/LethalNetworkAPI/
+  displayName: LethalNetworkAPI
+  description: A library/API to allow developers to easily add networking to their mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1737459304877
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Lordfirespeed-OdinSerializer-2022.11.9
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 3
+      minor: 3
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/xilophor-LethalNetworkAPI/3.3.2/icon.png
+- manifestVersion: 1
+  name: Chibranche-LethalProgression_PatchFix_keepProgress
+  authorName: Chibranche
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Chibranche/LethalProgression_PatchFix_keepProgress/
+  displayName: LethalProgression_PatchFix_keepProgress
+  description: Leveling and skillpoints through a managed GUI! Patched and
+    bugfixed until official copy updated.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1737459305135
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - xilophor-LethalNetworkAPI-2.1.6
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 7
+      patch: 4
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Chibranche-LethalProgression_PatchFix_keepProgress/1.7.4/icon.png
+- manifestVersion: 1
+  name: thomas-AlwaysShowClock
+  authorName: thomas
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/thomas/AlwaysShowClock/
+  displayName: AlwaysShowClock
+  description: Show the clock GUI from arrival to departure, even while inside dungeons.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1737460267586
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/thomas-AlwaysShowClock/1.0.0/icon.png
+- manifestVersion: 1
+  name: MonoDetour-MonoDetour
+  authorName: MonoDetour
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/MonoDetour/MonoDetour/
+  displayName: MonoDetour
+  description: Easy and convenient .NET detouring library, powered by MonoMod.RuntimeDetour.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293432217
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 0
+      minor: 6
+      patch: 11
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/MonoDetour-MonoDetour/0.6.11/icon.png
+- manifestVersion: 1
+  name: MonoDetour-MonoDetour_BepInEx_5
+  authorName: MonoDetour
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/MonoDetour/MonoDetour_BepInEx_5/
+  displayName: MonoDetour_BepInEx_5
+  description: Integrates MonoDetour's logger with BepInEx and as a side effect
+    initializes MonoDetour early. MonoDetour is an easy and convenient .NET
+    detouring library, powered by MonoMod.RuntimeDetour.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293432329
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - MonoDetour-MonoDetour-0.6.11
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 0
+      minor: 6
+      patch: 11
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/MonoDetour-MonoDetour_BepInEx_5/0.6.11/icon.png
+- manifestVersion: 1
+  name: MaxWasUnavailable-LethalModDataLib
+  authorName: MaxWasUnavailable
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/MaxWasUnavailable/LethalModDataLib/
+  displayName: LethalModDataLib
+  description: A library for Lethal Company, providing a standardised way to save
+    and load modded data.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293496200
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/MaxWasUnavailable-LethalModDataLib/1.2.2/icon.png
+- manifestVersion: 1
+  name: IAmBatby-LethalLevelLoader
+  authorName: IAmBatby
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader/
+  displayName: LethalLevelLoader
+  description: A Custom API to support the manual and dynamic integration of all
+    forms of custom content in Lethal Company. (v69 Compatible)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293496313
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-FixPluginTypesSerialization-1.1.1
+    - MaxWasUnavailable-LethalModDataLib-1.2.2
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 4
+      patch: 11
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/IAmBatby-LethalLevelLoader/1.4.11/icon.png
+- manifestVersion: 1
+  name: silhygames-FumoCompany
+  authorName: silhygames
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/silhygames/FumoCompany/
+  displayName: FumoCompany
+  description: Adds 115 new scrap items, mostly in the form of fumos, now with
+    lots of optimization.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293496440
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - IAmBatby-LethalLevelLoader-1.4.10
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 4
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/silhygames-FumoCompany/1.4.1/icon.png
+- manifestVersion: 1
+  name: etherealemil-UsualScrap
+  authorName: etherealemil
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/etherealemil/UsualScrap/
+  displayName: UsualScrap
+  description: Adds 15+ unique equipment and scrap items that try to keep the vanilla tone
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293573697
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Sigurd-CSync-5.0.1
+    - Evaisa-LethalLib-0.16.2
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 7
+      patch: 8
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/etherealemil-UsualScrap/1.7.8/icon.png
+- manifestVersion: 1
+  name: DarthLilo-SkinnedRendererPatch
+  authorName: DarthLilo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/DarthLilo/SkinnedRendererPatch/
+  displayName: SkinnedRendererPatch
+  description: Patches the games variant system to add support for SkinnedMeshRenderers
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293594786
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 3
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/DarthLilo-SkinnedRendererPatch/1.1.3/icon.png
+- manifestVersion: 1
+  name: DarthLilo-LilosScrapExtension
+  authorName: DarthLilo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/DarthLilo/LilosScrapExtension/
+  displayName: LilosScrapExtension
+  description: A scrap mod which adds new custom made items!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293594907
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - IAmBatby-LethalLevelLoader-1.3.10
+    - DarthLilo-SkinnedRendererPatch-1.1.3
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 4
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/DarthLilo-LilosScrapExtension/1.4.0/icon.png
+- manifestVersion: 1
+  name: Scintesto-Monster_Plushies
+  authorName: Scintesto
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Scintesto/Monster_Plushies/
+  displayName: Monster_Plushies
+  description: Adds monsters from the game as Plushies! Check the README to see
+    what plushies are in at the moment
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293619874
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Sigurd-CSync-4.1.0
+    - Evaisa-LethalLib-0.15.1
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 9
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Scintesto-Monster_Plushies/1.2.9/icon.png
+- manifestVersion: 1
+  name: Shlygly-Juices_Mod
+  authorName: Shlygly
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Shlygly/Juices_Mod/
+  displayName: Juices_Mod
+  description: Have you always wanted to sell juice to the company ? Strange, but
+    anyway - now it's possible !
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293632128
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.16.0
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 5
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Shlygly-Juices_Mod/1.5.0/icon.png
+- manifestVersion: 1
+  name: Gemumoddo-LethalEmotesAPI
+  authorName: Gemumoddo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Gemumoddo/LethalEmotesAPI/
+  displayName: LethalEmotesAPI
+  description: API for adding emotes to Lethal Company
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293668569
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Rune580-LethalCompany_InputUtils-0.7.3
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 16
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Gemumoddo-LethalEmotesAPI/1.16.0/icon.png
+- manifestVersion: 1
+  name: other-HuluoboEmotes
+  authorName: other
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/other/HuluoboEmotes/
+  displayName: HuluoboEmotes
+  description: This is a mod for Huluobo. I couldn't find this mod on the website,
+    so I uploaded it for convenience. If the original creator requests deletion,
+    I will delete it.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293668714
+  loaders: []
+  dependencies:
+    - Gemumoddo-LethalEmotesAPI-1.16.0
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/other-HuluoboEmotes/1.0.1/icon.png
+- manifestVersion: 1
+  name: 347956-MahjongScrap
+  authorName: "347956"
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/347956/MahjongScrap/
+  displayName: MahjongScrap
+  description: Adds (Riichi) Mahjong themed/related custom scrap
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293669685
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.16.1
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 3
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/347956-MahjongScrap/1.0.3/icon.png
+- manifestVersion: 1
+  name: ButteryStancakes-ButteryFixes
+  authorName: ButteryStancakes
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ButteryStancakes/ButteryFixes/
+  displayName: ButteryFixes
+  description: Fixes a lot of miscellaneous gameplay issues with vanilla. See
+    store description for more details (and recommendations for other great
+    bugfix packages)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293692470
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 14
+      patch: 3
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/ButteryStancakes-ButteryFixes/1.14.3/icon.png
+- manifestVersion: 1
+  name: AinaVT-LethalConfig
+  authorName: AinaVT
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AinaVT/LethalConfig/
+  displayName: LethalConfig
+  description: Provides an in-game config menu for players to edit their configs,
+    and an API for other mods to use and customize their entries.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293716820
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 4
+      patch: 6
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/AinaVT-LethalConfig/1.4.6/icon.png
+- manifestVersion: 1
+  name: Wexop-ColorfulJarOfPickles
+  authorName: Wexop
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Wexop/ColorfulJarOfPickles/
+  displayName: ColorfulJarOfPickles
+  description: "[V60+] Add multiple colorful animated jars of pickles scraps
+    items, so cool !"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293716955
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - AinaVT-LethalConfig-1.4.2
+    - Evaisa-LethalLib-0.16.2
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 3
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Wexop-ColorfulJarOfPickles/1.1.3/icon.png
+- manifestVersion: 1
+  name: TestAccount666-DoorBreach
+  authorName: TestAccount666
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/TestAccount666/DoorBreach/
+  displayName: DoorBreach
+  description: Open doors with style
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293723147
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 4
+      patch: 4
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/TestAccount666-DoorBreach/1.4.4/icon.png
+- manifestVersion: 1
+  name: TeamCosmic-GoldenShovel
+  authorName: TeamCosmic
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/TeamCosmic/GoldenShovel/
+  displayName: GoldenShovel
+  description: A golden shovel, made of some Strange Professional Australian
+    metal. By The Cosmic Jester of the Void
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293743894
+  loaders: []
+  dependencies:
+    - Evaisa-LethalLib-0.11.2
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 3
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/TeamCosmic-GoldenShovel/1.1.3/icon.png
+- manifestVersion: 1
+  name: EnoPM-NoButlerHornets
+  authorName: EnoPM
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/EnoPM/NoButlerHornets/
+  displayName: NoButlerHornets
+  description: A Lethal Company mod that removes the mask hornets that appear when
+    a Butler dies
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293803869
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/EnoPM-NoButlerHornets/1.0.1/icon.png
+- manifestVersion: 1
+  name: the_croods-RemoverOfFog
+  authorName: the_croods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/the_croods/RemoverOfFog/
+  displayName: RemoverOfFog
+  description: Removes most fog
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293867627
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/the_croods-RemoverOfFog/1.0.2/icon.png
+- manifestVersion: 1
+  name: Sophisticasean-KeysLockDoors
+  authorName: Sophisticasean
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sophisticasean/KeysLockDoors/
+  displayName: KeysLockDoors
+  description: This mod allows keys to lock doors. Keys can now both unlock and
+    lock doors. Trap enemies, trap your friends! Just updated for v60.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293881859
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.16.1
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 3
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Sophisticasean-KeysLockDoors/1.1.3/icon.png
+- manifestVersion: 1
+  name: rainbow137-NewYearJester
+  authorName: rainbow137
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/rainbow137/NewYearJester/
+  displayName: NewYearJester
+  description: Making Jester More Festive!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293899396
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/rainbow137-NewYearJester/1.0.0/icon.png
+- manifestVersion: 1
+  name: Swaggies-HandsNotFull
+  authorName: Swaggies
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Swaggies/HandsNotFull/
+  displayName: HandsNotFull
+  description: Choose how many two-handed items you can hold at a time.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293911728
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 1
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Swaggies-HandsNotFull/1.1.0/icon.png
+- manifestVersion: 1
+  name: mattymatty-BagConfig
+  authorName: mattymatty
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/mattymatty/BagConfig/
+  displayName: BagConfig
+  description: Tweak the behavior of Belt Bags
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293925386
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/mattymatty-BagConfig/1.0.0/icon.png
+- manifestVersion: 1
+  name: TShine-ChineseBrideAndNewYearGhostgirl
+  authorName: TShine
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/TShine/ChineseBrideAndNewYearGhostgirl/
+  displayName: ChineseBrideAndNewYearGhostgirl
+  description: Modifications have been made to the model, audio, and AI
+    logic.Added 3 models and around 30 audio files.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293948863
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/TShine-ChineseBrideAndNewYearGhostgirl/1.0.2/icon.png
+- manifestVersion: 1
+  name: FlipMods-FasterItemDropship
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/FasterItemDropship/
+  displayName: FasterItemDropship
+  description: V62 Compatible! Makes the Item Dropship arrive and leave faster.
+    Any items bought while delivering but before fully landed will be added to
+    the dropship. All settings are now configurable.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293975714
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 3
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/FlipMods-FasterItemDropship/1.3.1/icon.png
+- manifestVersion: 1
+  name: Hamunii-JetpackWarning
+  authorName: Hamunii
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Hamunii/JetpackWarning/
+  displayName: JetpackWarning
+  description: Adds visual and audio indicators for when your jetpack may explode.
+    Now maintained by Hamunii.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293987549
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 2
+      minor: 2
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Hamunii-JetpackWarning/2.2.0/icon.png
+- manifestVersion: 1
+  name: mrov-MrovLib
+  authorName: mrov
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/mrov/MrovLib/
+  displayName: MrovLib
+  description: Common methods for my mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293999290
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 0
+      minor: 3
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/mrov-MrovLib/0.3.1/icon.png
+- manifestVersion: 1
+  name: mrov-DisplayAllMoons
+  authorName: mrov
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/mrov/DisplayAllMoons/
+  displayName: DisplayAllMoons
+  description: Unhides all LLL-registered moons.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752293999484
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - IAmBatby-LethalLevelLoader-1.1.6
+    - mrov-MrovLib-0.2.17
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 0
+      minor: 0
+      patch: 3
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/mrov-DisplayAllMoons/0.0.3/icon.png
+- manifestVersion: 1
+  name: MiffyL-Kill_It_With_Shovel
+  authorName: MiffyL
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/MiffyL/Kill_It_With_Shovel/
+  displayName: Kill_It_With_Shovel
+  description: Let you disable a turret by shoveling it.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752294018404
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 1
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/MiffyL-Kill_It_With_Shovel/1.0.1/icon.png
+- manifestVersion: 1
+  name: Entity378-SellBodiesFixed
+  authorName: Entity378
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Entity378/SellBodiesFixed/
+  displayName: SellBodiesFixed
+  description: Sell the bodies of dead enemies. This is an updated version of the
+    SellBodies mod
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752294046471
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.16.1
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 12
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/Entity378-SellBodiesFixed/1.12.2/icon.png
+- manifestVersion: 1
+  name: matsuura-HealthMetrics
+  authorName: matsuura
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/matsuura/HealthMetrics/
+  displayName: HealthMetrics
+  description: Add a simple health counter on your HUD
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752294053221
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/matsuura-HealthMetrics/1.0.2/icon.png
+- manifestVersion: 1
+  name: TestAccount666-DamageMetrics
+  authorName: TestAccount666
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/TestAccount666/DamageMetrics/
+  displayName: DamageMetrics
+  description: A Fork of HealthMetrics that shows damage instead of hp
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752294056846
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 0
+      patch: 0
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/TestAccount666-DamageMetrics/1.0.0/icon.png
+- manifestVersion: 1
+  name: MelanieMelicious-MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod
+  authorName: MelanieMelicious
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/MelanieMelicious/MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod/
+  displayName: MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod
+  description: Very cool MelanieMelicious mod that makes the ship 2-stories tall.
+    Compatible with Wider Ship Mod, Ship Windows (reset config), AND Celestial
+    Tint. You can contact me in Lethal Company Modding Discord, I'll add more
+    options later.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752294141473
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 2
+      patch: 7
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/MelanieMelicious-MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod/1.2.7/icon.png
+- manifestVersion: 1
+  name: SoftDiamond-BrutalCompanyMinusExtraReborn
+  authorName: SoftDiamond
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/SoftDiamond/BrutalCompanyMinusExtraReborn/
+  displayName: BrutalCompanyMinusExtraReborn
+  description: V70+ Continued Fork of BrutalCompanyMinusExtra. More Events, Mod
+    Integrations, and Chaos!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1752912157345
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - xilophor-LethalNetworkAPI-2.2.0
+    - NotAtomicBomb-TerminalApi-1.5.4
+      incompatibilities: []
+      optionalDependencies: []
+      versionNumber:
+      major: 1
+      minor: 25
+      patch: 2
+      enabled: true
+      icon: C:/Users/weijianglin/AppData/Roaming/Thunderstore Mod
+      Manager/DataFolder/LethalCompany/cache/SoftDiamond-BrutalCompanyMinusExtraReborn/1.25.2/icon.png
